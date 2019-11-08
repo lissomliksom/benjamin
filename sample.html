@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benjamin.css Sample Page</title>
+    <link rel="stylesheet" href="benjamin.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <style>
+      body {
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+      }
+
+      .menu, .content {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1em 20%;
+        line-height: 1.5;
+      }
+
+      .navitem {
+        margin: 0 .5em;
+      }
+
+      .image {
+        background: url("https://picsum.photos/id/700/1920/350") hsla(247.1, 36.8%, 44.7%, 0.8);
+        background-blend-mode: multiply;
+        background-size: cover;
+        color: hsla(0, 0%, 100%, .9);
+        display: inline-block;
+        font-size: 1.5em;
+        height: 350px;
+        padding-top: 2em;
+        text-align: center;
+        width: 100%;
+      }
+
+      .content {
+        margin-top: 1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+        <section class="menu">
+          <div>
+              <h1>Benjamin</h1>
+          </div>
+          <div>
+            <nav>
+              <a href="#" class="link link--first navitem">About</a> 
+              <a href="#" class="link link--first navitem">FAQ</a> 
+              <a href="#" class="link link--first navitem">Contact</a>
+            </nav>
+          </div> 
+        </section>
+
+        <section class="image">
+          <h3>My impressive slogan here</h3>
+          <p>
+            Some sample text to <strong>hightlight</strong> how Benjamin.css is easy to implement into your design.
+          </p>
+          <a href="#" class="button button--large button--white"><span class="button__icon--first"><i class="fas fa-book"></i></span> Read more</a>
+          <a href="#" class="button button--large button--first">Download now <i class="fas fa-file-download"></i></a>
+        </section>
+    </header>
+
+    <main>
+      <section class="content">
+        <div>
+          <h2>Sample heading</h2>
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+            corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in 
+            culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. 
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, 
+            omnis voluptas assumenda est, omnis dolor repellendus. 
+            Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+          </p>
+          <a class="button button--small button--second">Read more</a>
+        </div>
+      </section>
+
+      <section class="content">
+          <div>
+            <h2>Sample heading</h2>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+              corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in 
+              culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. 
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, 
+              omnis voluptas assumenda est, omnis dolor repellendus. 
+              Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+              Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+            </p>
+            <a class="button button--small button--second">Read more</a>
+          </div>
+        </section>
+    </main>
+  </body>
+</html>

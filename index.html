@@ -1,1 +1,139 @@
-Hello, world
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benjamin.css</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/benjamin.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <h1>Benjamin</h1>
+        <p>A small css module for buttons.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2><a href="#1" id="1">DEFAULT <span class="anchor">#1</span></a></h2>
+            <p>
+                The default button.
+            </p>
+            <pre>
+            <code>
+&lt;a href="#" class="button"&gt;Default button&lt;/a&gt;
+            </code>
+            </pre>
+            <a href="#" class="button">Default button</a>
+        </section>
+
+
+
+        <section>
+                <h2><a href="#2" id="2">SIZE <span class="anchor">#2</span></a></h2>
+            <p>
+                Modify button size by editing font-size.
+            </p>
+            <pre>
+            <code>
+&lt;a href="#" class="button button--large"&gt;Large&lt;/a&gt;
+&lt;a href="#" class="button button"&gt;Default&lt;/a&gt;
+&lt;a href="#" class="button button--medium"&gt;Medium&lt;/a&gt;
+&lt;a href="#" class="button button--small"&gt;Small&lt;/a&gt;
+            </code>
+            </pre>
+            <a href="#" class="button button--large">Large</a>
+            <a href="#" class="button">Default</a>
+            <a href="#" class="button button--medium">Medium</a>
+            <a href="#" class="button button--small">Small</a>
+        </section>
+
+        <section>
+            <h2><a href="#3" id="3">COLOR <span class="anchor">#3</span></a></h2>
+            <p>
+                Six additional styles.
+            </p>
+            <pre>
+            <code>
+&lt;a href="#" class="button button--black"&gt;Black&lt;/a&gt;
+&lt;a href="#" class="button button--white"&gt;White&lt;/a&gt;
+&lt;a href="#" class="button button--gray"&gt;Gray&lt;/a&gt;
+&lt;a href="#" class="button button--first"&gt;first&lt;/a&gt;
+&lt;a href="#" class="button button--second"&gt;second&lt;/a&gt;
+&lt;a href="#" class="button button--third"&gt;third&lt;/a&gt;
+            </code>
+            </pre>
+            <h3>Black, white, gray</h3>
+            <a href="#" class="button button--black">Black</a>
+            <a href="#" class="button button--white">White</a>
+            <a href="#" class="button button--gray">Gray</a>
+
+            <h3>first, second, third</h3>
+            <a href="#" class="button button--first">first</a>
+            <a href="#" class="button button--second">second</a>
+            <a href="#" class="button button--third">third</a>
+        </section>
+
+        <section>
+            <h2><a href="#4" id="4">Icons <span class="anchor">#4</span></a></h2>
+            <p>
+                Colored FontAwesome icons. first, second, third.
+            </p>
+            <pre>
+            <code>
+&lt;a href="#" class="button"&gt;
+  &lt;span class="button__icon--first"&gt;&lt;i class="fas fa-search"&gt;&lt;/i&gt;&lt;/span&gt; Search
+&lt;/a&gt;
+&lt;a href="#" class="button"&gt;
+  &lt;span class="button__icon--second"&gt;&lt;i class="fas fa-check"&gt;&lt;/i&gt;&lt;/span&gt; Save
+&lt;/a&gt;
+&lt;a href="#" class="button"&gt;
+  Delete &lt;span class="button__icon--third"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;/a&gt;
+            </code>
+            </pre>
+            <a href="#" class="button">
+                <span class="button__icon--first"><i class="fas fa-search"></i></span> Search
+            </a>
+            <a href="#" class="button">
+                <span class="button__icon--second"><i class="fas fa-check"></i></span> Save
+            </a>
+            <a href="#" class="button">
+                Delete <span class="button__icon--third"><i class="fas fa-times"></i></span>
+            </a>
+        </section>
+
+        <section>
+            <h2><a href="#5" id="5">Links <span class="anchor">#5</span></a></h2>
+            <p>
+                <br>
+                Style links using above colors.
+            </p>
+            <pre>
+            <code>
+&lt;a href="#" class="link"&gt;Default&lt;/a&gt;
+&lt;a href="#" class="link link--first"&gt;First&lt;/a&gt;
+&lt;a href="#" class="link link--second"&gt;Second&lt;/a&gt;
+&lt;a href="#" class="link link--third"&gt;Third&lt;/a&gt;
+
+            </code>
+            </pre>
+                <a href="#" class="link">Default</a><br>
+                <a href="#" class="link link--first">First</a><br>
+                <a href="#" class="link link--second">Second</a><br>
+                <a href="#" class="link link--third">Third</a><br>
+        </section>
+        <section>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p><em>Benjamin.css</em> by Simen Kristoffersen.</p>
+        <p>Based on <a href="https://github.com/mrmrs/btns" class="link" target="_blank">BTNS</a> by <a href="http://mrmrs.io/" target="_blank">mrmrs</a></p>
+        <small>Benjamin v1.0.0 - License: MIT</small>
+    </footer>
+  </body>
+</html>

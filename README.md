@@ -2,6 +2,6 @@
 Stupid pun, decent CSS button module.
 
 ## Demo
-Project page / Documentation: [github.io/lissomliksom/benjamin](https://github.io/lissomliksom/benjamin)
+Project page / Documentation: [lissomliksom.github.io/benjamin/](https://lissomliksom.github.io/benjamin/.)
 
-Demo page: [github.io/lissomliksom/benjamin/sample](https://github.io/lissomliksom/benjamin/)
+Demo page: [lissomliksom.github.io/benjamin/demo](https://lissomliksom.github.io/benjamin/demo)

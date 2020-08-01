@@ -1,0 +1,243 @@
+/*
+ * benjamin.css
+ * Author: Simen Kristoffersen
+ * License: MIT
+ * GitHub: https://github.com/lissomliksom/benjamin
+*/
+
+/*
+  Default button
+  <a href="#" class="button">Default button</a>
+*/
+
+.button, .button:link, .button:visited {
+  border-radius: 0.25em;
+  border-style: solid;
+  border-width: 1px;
+  color: #111;
+  display: inline-block;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color 0.1s, background-color 0.1s, border 0.1s;
+  transition: color 0.1s, background-color 0.1s, border 0.1s; }
+
+.button:hover, .button:focus {
+  color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s, color 0.1s, border 0.1s;
+  transition: background-color 0.1s, color 0.1s, border 0.1s; }
+
+.button:active {
+  color: #000;
+  border: 1px solid #000;
+  -webkit-transition: background-color 0.1s, color 0.1s, border 0.1s;
+  transition: background-color 0.1s, color 0.1s, border 0.1s; }
+
+/*
+  Sizes
+  Small  = .button--small
+  Medium = .button--medium
+  Large  = .button--large
+  Code:
+  <a href="#" class="button button--small">
+  <a href="#" class="button button--medium">
+  <a href="#" class="button button--large">
+*/
+
+.button--small {
+  font-size: .525rem; 
+}
+
+.button--medium {
+  font-size: .75rem; }
+
+.button--large {
+  font-size: 1.1rem; }
+
+/*
+  Colors
+  * Black, white, gray
+  * first, second, third
+  Code:
+  <a href="#" class="button button--black">Black</a>
+  <a href="#" class="button button--white">White</a>
+  <a href="#" class="button button--gray">Gray</a>
+  <a href="#" class="button button--first">first</a>
+  <a href="#" class="button button--second">second</a>
+  <a href="#" class="button button--third">third</a>
+*/
+/* BLACK & WHITE */
+.button--black, .button--black:link, .button--black:visited {
+  color: #fff;
+  background-color: #111; 
+  border-color: #111;
+}
+
+.button--black:hover, .button--black:focus {
+  color: #fff;
+  background-color: #222;
+  border-color: #222; }
+
+.button--black:active {
+  color: #fff;
+  background-color: #000;
+  border-color: #000; }
+
+.button--white, .button--white:link, .button--white:visited {
+  color: #111;
+  background-color: #fff; 
+  border-color: #111;
+}
+
+.button--white:hover, .button--white:focus {
+  color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(0, 0, 0, 0.6); }
+
+.button--white:active {
+  color: #111;
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.6); }
+
+/* Gray */
+.button--gray, .button--gray:link, .button--gray:visited {
+  background-color: #EBEBEB;
+  border-color: #EBEBEB;
+  color: #444; }
+
+.button--gray:hover, .button--gray:focus {
+  background-color: #e3e3e3;
+  border-color: #e3e3e3;
+  color: #222; }
+
+.button--gray:active {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: #222; }
+
+/* first */
+.button--first, .button--first:link, .button--first:visited {
+  color: #fff;
+  background-color: #52489C; 
+  border-color: #52489C;
+}
+
+.button--first:hover, .button--first:focus {
+  color: #fff !important;
+  background-color: #4B428E;
+  border-color: #4B428E; }
+
+.button--first:active {
+  color: #fff;
+  background-color: #1B1833;
+  border-color: #1B1833; }
+
+  /* second */
+.button--second, .button--second:link, .button--second:visited {
+  color: #fff;
+  background-color: #59C3C3; 
+  border-color: #59C3C3;
+}
+
+.button--second:hover, .button--second:focus {
+  color: #fff !important;
+  background-color: #4ABEBE;
+  border-color: #4ABEBE; }
+
+.button--second:active {
+  color: #fff;
+  background-color: #236060;
+  border-color: #236060; }
+
+/* third */
+.button--third, .button--third:link, .button--third:visited {
+  color: #fff;
+  background-color: #F45B69;
+  border-color: #F45B69;;
+}
+
+.button--third:hover, .button--third:focus {
+  color: #fff !important;
+  background-color: #F34858;
+  border-color: #F34858; }
+
+.button--third:active {
+  color: #fff;
+  background-color: #AB0B1A;
+  border-color: #AB0B1A; }
+
+/*
+  Colored icons
+  * first, second, third
+  Code:
+  <a href="#" class="button">
+    <span class="button__icon--first"><i class="fas fa-search"></i></span> Search
+  </a>
+  <a href="#" class="button">
+    <span class="button__icon--second"><i class="fas fa-check"></i></span> Save
+  </a>
+  <a href="#" class="button">
+    Delete <span class="button__icon--third"><i class="fas fa-times"></i></span>
+  </a>
+*/
+
+.button__icon--first {
+    color: #52489C;
+}
+
+.button__icon--second {
+    color: #59C3C3;
+}
+
+.button__icon--third {
+    color: #F45B69;
+}
+
+/*
+  Style links using above colors.
+  <a href="#" class="link">Example</a>
+*/
+
+a.link,
+a:link.link ,
+a:visited.link {
+  color: #111;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover.link  { 
+  color: #222; 
+}
+
+a:active.link {
+  color: #000;
+  transition: color 0.1s;
+}
+
+.link--first  {
+  color: #52489C !important;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(70%,transparent),color-stop(70%,hsla(247.1, 36.8%, 44.7%, .2)));
+  background-image: linear-gradient(180deg,transparent 70%,hsla(247.1, 36.8%, 44.7%, .2) 0);
+}
+
+.link--second  {
+  color: #59C3C3 !important;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(70%,transparent),color-stop(70%,hsla(180, 46.9%, 55.7%, .2)));
+  background-image: linear-gradient(180deg,transparent 70%,hsla(180, 46.9%, 55.7%, .2) 0);
+}
+
+.link--third  {
+  color: #F45B69 !important;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(70%,transparent),color-stop(70%,hsla(56.5, 99.4%, 50.7%, .2)));
+  background-image: linear-gradient(180deg,transparent 70%,hsla(354.5, 87.4%, 65.7%, .2) 0);
+}
+
+.link--first:hover, .link--second:hover, .link--third:hover {
+  opacity: 0.8;
+}
